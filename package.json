@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon -L express_server.js"
+  },
+  "name": "jaewon_website",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binding1/Jaewon_Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binding1/Jaewon_Website/issues"
+  },
+  "homepage": "https://github.com/binding1/Jaewon_Website#readme"
+}
