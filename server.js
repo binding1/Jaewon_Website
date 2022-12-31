@@ -5,6 +5,9 @@ const port = 3000; // Define our base URL as http:\\localhost:3000
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
+
+app.use(express.static(__dirname + '/'));
+
 // index page
 app.get('/', function(req, res) {
     res.render('index');

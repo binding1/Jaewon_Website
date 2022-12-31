@@ -1,0 +1,11 @@
+body {
+    background-color: steelblue;
+}
+
+.container {
+    padding-top: 1em;
+}
+
+.jumbotron {
+    background-color: ghostwhite;
+}
