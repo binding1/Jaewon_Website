@@ -1,2 +1,33 @@
 #projects-header {
+  display: flex;
+  justify-content: center;
+  color: ghostwhite;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50em;
+}
+
+.project-box {
+  background-color: aliceblue;
+  border-radius: 0.3em;
+  padding: 1em;
+  width: 80%;
+  box-shadow: 5px 5px darkgray;
+  opacity: 50%;
+}
+
+.project-icon {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  color: black;
+}
+
+.project-icon:hover {
+  text-decoration: none;
 }

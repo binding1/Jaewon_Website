@@ -18,6 +18,9 @@
     <!-- Icon CDN CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <!-- Footer CSS -->
     <link rel="stylesheet" href="/css/body.css" type="text/css">
 
@@ -27,14 +30,41 @@
     <!-- Footer CSS -->
     <link rel="stylesheet" href="/css/footer.css" type="text/css">
 
-    <!-- Animate CSS CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Projects CSS -->
+    <link rel="stylesheet" href="/css/projects.css" type="text/css">
+
+
 
     <title>Jaewon's Views</title>
   </head>
   <body>
     <%- include ('partials/_header') %>
-    <h1 class="animate__animated animate__fadeInUp animate__faster" id="projects-header">Projects</h1>
+    <div id="projects-header">
+      <h1 class="animate__animated animate__fadeInUp animate__faster">Projects</h1> 
+    </div>
+
+    <div class="project-container">
+      <div class="project-box animate__animated animate__fadeInUp animate__faster" id="Jaewon's Views">
+        <h3>Jaewon's Views</h3>
+        <p id="views">Personal website for my Profile, Resume and Portfolio. Built using JS, EJS, Express, HTML5 and CSS.</p>
+        <a href="https://github.com/binding1/Jaewon_Website" class="project-icon" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <div class="project-box animate__animated animate__fadeInUp animate__faster" id="tweeter">
+        <h3>Tweeter</h3>
+        <p id="views">Single page web page, based on existing backend architecture. Built using HTML and CSS.</p>
+        <a href="https://github.com/binding1/tweeter" class="project-icon" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <div class="project-box animate__animated animate__fadeInUp animate__faster" id="tinyapp">
+        <h3>Tinyapp</h3>
+        <p id="views">Link shortening app. Built using JS, EJS, Express, HTML5 and CSS.</p>
+        <a href="https://github.com/binding1/tinyapp" class="project-icon" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <div class="project-box animate__animated animate__fadeInUp animate__faster" id="lotide">
+        <h3>Lotide</h3>
+        <p id="views">Clone of Lodash. Built in JS.</p>
+        <a href="https://github.com/binding1/lotide" class="project-icon" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
     <!-- Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
