@@ -9,9 +9,13 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/'));
 
 // index page
-app.get('/', function(req, res) {
+app.get('/', (req, res) => {
     res.render('index');
-  });
+});
+
+app.get('/projects', (req, res) => {
+  res.render('projects')
+});
 
 
 app.listen(port, function () {

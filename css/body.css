@@ -3,9 +3,12 @@ body {
 }
 
 .container {
-    padding-top: 1em;
+    padding-top: 2em;
 }
 
 .jumbotron {
+    box-shadow: 5px 5px darkgrey;
     background-color: ghostwhite;
+    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
 }

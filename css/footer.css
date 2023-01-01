@@ -7,18 +7,26 @@ footer {
     padding: 1em;
 }
 
-a {
-    color: white;
-    align-content: space-between;
+#footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
 }
 
-a:hover {
+.link:hover {
     color:blueviolet;
     text-decoration: none;
 }
 
-
 .links-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+    width: 200px;
+    font-size: x-large;
+
+}
+
+.link {
+    color: white;
 }
